@@ -17,7 +17,7 @@ public class Empleados extends javax.swing.JFrame {
     public Empleados() {
         initComponents();
         setLocationRelativeTo(null);
-        txtId.setVisible(false);
+        txtId.setVisible(true);
         btnGr = new ButtonGroup();
         btnGr.add(rbMasculino);
         btnGr.add(rbFemenino);

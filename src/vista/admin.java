@@ -31,10 +31,10 @@ public class admin extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu5 = new javax.swing.JMenu();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
         jMenuItem7 = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
@@ -62,6 +62,13 @@ public class admin extends javax.swing.JFrame {
         });
         jMenuBar1.add(jMenu5);
 
+        jMenu8.setText("Usuarios");
+
+        jMenuItem7.setText("Rregistro de usuarios");
+        jMenu8.add(jMenuItem7);
+
+        jMenuBar1.add(jMenu8);
+
         jMenu1.setText("Empleados");
 
         jMenuItem1.setText("Registro de empleados");
@@ -73,13 +80,6 @@ public class admin extends javax.swing.JFrame {
         jMenu1.add(jMenuItem1);
 
         jMenuBar1.add(jMenu1);
-
-        jMenu8.setText("Usuarios");
-
-        jMenuItem7.setText("Rregistro de usuarios");
-        jMenu8.add(jMenuItem7);
-
-        jMenuBar1.add(jMenu8);
 
         jMenu2.setText("Medicos");
 
