@@ -9,5 +9,7 @@ public class Main {
        Login ventanaLogin = new Login();
        ventanaLogin.setVisible(true);  
        ventanaLogin.setLocationRelativeTo(null);
+       
+       /*pruebaa*/
     }    
 }
